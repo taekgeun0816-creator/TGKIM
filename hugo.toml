@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = https://taekgeun0816-creator.github.io/TGKIM/
 locale = 'en-us'
 title = 'My New Hugo Project'
 theme = 'ananke'
