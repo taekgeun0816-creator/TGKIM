@@ -1,4 +1,9 @@
-baseURL = https://taekgeun0816-creator.github.io/TGKIM/
-locale = 'en-us'
-title = 'My New Hugo Project'
+baseURL = 'https://taekgeun0816-creator.github.io/TGKIM/'
+languageCode = 'ko-kr'
+title = 'TGKIM Archive'
 theme = 'ananke'
+
+[params]
+  description = "흥미로운 생각과 일상의 기록들"
+  background_color_class = "bg-blue-900"
+  recent_posts_number = 3
