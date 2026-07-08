@@ -5,5 +5,39 @@ theme = 'ananke'
 
 [params]
   description = "흥미로운 생각과 일상의 기록들"
-  background_color_class = "bg-blue-900"
-  recent_posts_number = 3
+  background_color_class = "bg-blue-900" # 배경색 (네이비 톤)
+  recent_posts_number = 3                # 홈 화면에 보일 최신 글 개수
+  
+
+# ---------------------------------------------------------
+# 🗂️ 상단 메뉴 설정 (weight 숫자가 작을수록 왼쪽에 배치)
+# ---------------------------------------------------------
+[[menus.main]]
+  name = "HOME"
+  pageRef = "/"
+  weight = 10
+
+[[menus.main]]
+  name = "Insight"
+  pageRef = "/posts/"
+  weight = 20
+
+[[menus.main]]
+  name = "IT Study"
+  pageRef = "/study/"    # content/study/ 폴더나 study.md 파일을 찾아갑니다.
+  weight = 30
+
+[[menus.main]]
+  name = "mini project"
+  pageRef = "/project/"  # content/project/ 폴더나 project.md 파일을 찾아갑니다.
+  weight = 40
+
+[[menus.main]]
+  name = "Code Practice"
+  pageRef = "/transcription/" # content/transcription/ 폴더나 transcription.md 파일을 찾아갑니다.
+  weight = 50
+
+[[menus.main]]
+  name = "Introduction"
+  pageRef = "/about/"
+  weight = 60
