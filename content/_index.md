@@ -1,5 +1,5 @@
 ---
 title: "TGKIM Archive"
-description: "여기에 블로그 설명을 적어주세요."
+description: "Hello world!"
 featured_image: "/images/feature.jpg"
 ---

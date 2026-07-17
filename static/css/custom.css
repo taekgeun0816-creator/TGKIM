@@ -1,0 +1,7 @@
+.ananke-sc-background, 
+.cover-background {
+    background-size: contain !important; 
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-color: #000 !important; /* 빈 공간이 생겨도 자연스럽게 검은색으로 채움 */
+}

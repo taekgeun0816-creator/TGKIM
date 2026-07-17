@@ -5,43 +5,13 @@ theme = 'ananke'
 
 [params]
   description = "흥미로운 생각과 일상의 기록들"
-# 1. 깃허브 하위 경로 충돌을 방지하기 위해 슬래시를 뺀 이미지 경로를 추가합니다.
+  
+  # 1. 하위 경로(/TGKIM/)를 사용하는 깃허브 페이지 특성을 고려해 맨 앞 슬래시(/)를 제거합니다.
   featured_image = "images/feature.jpg"
   
-  # 2. 파란 배경색이 이미지를 가리지 않도록 투명(bg-transparent)으로 수정합니다.
-  background_color_class = "bg-transparent"
-  recent_posts_number = 3                # 홈 화면에 보일 최신 글 개수
+  # 2. 배경색 클래스가 활성화되어 있으면 이미지를 가릴 수 있으므로 투명(bg-transparent)하게 만들거나 비워둡니다.
+  background_color_class = "bg-transparent" 
   
+  recent_posts_number = 3
 
-# ---------------------------------------------------------
-# 🗂️ 상단 메뉴 설정 (weight 숫자가 작을수록 왼쪽에 배치)
-# ---------------------------------------------------------
-[[menus.main]]
-  name = "HOME"
-  pageRef = "/"
-  weight = 10
-
-[[menus.main]]
-  name = "Insight"
-  pageRef = "/posts/"
-  weight = 20
-
-[[menus.main]]
-  name = "IT Study"
-  pageRef = "/study/"    # content/study/ 폴더나 study.md 파일을 찾아갑니다.
-  weight = 30
-
-[[menus.main]]
-  name = "mini project"
-  pageRef = "/project/"  # content/project/ 폴더나 project.md 파일을 찾아갑니다.
-  weight = 40
-
-[[menus.main]]
-  name = "Code Practice"
-  pageRef = "/transcription/" # content/transcription/ 폴더나 transcription.md 파일을 찾아갑니다.
-  weight = 50
-
-[[menus.main]]
-  name = "Introduction"
-  pageRef = "/about/"
-  weight = 60
+  custom_css = ["css/custom.css"]
