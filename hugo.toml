@@ -5,7 +5,11 @@ theme = 'ananke'
 
 [params]
   description = "흥미로운 생각과 일상의 기록들"
-  background_color_class = "bg-blue-900" # 배경색 (네이비 톤)
+# 1. 깃허브 하위 경로 충돌을 방지하기 위해 슬래시를 뺀 이미지 경로를 추가합니다.
+  featured_image = "images/feature.jpg"
+  
+  # 2. 파란 배경색이 이미지를 가리지 않도록 투명(bg-transparent)으로 수정합니다.
+  background_color_class = "bg-transparent"
   recent_posts_number = 3                # 홈 화면에 보일 최신 글 개수
   
 
