@@ -15,3 +15,30 @@ theme = 'ananke'
   recent_posts_number = 3
 
   custom_css = ["css/custom.css"]
+
+# -----------메뉴 코드--------------
+
+  [menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts" # 화면에 표시될 메뉴 이름 (예: "블로그"로 변경 가능)
+    url = "/posts/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "project"
+    name = "Project"
+    url = "/project/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "study"
+    name = "Study"
+    url = "/study/"
+    weight = 30
+
+  [[menu.main]]
+    identifier = "transcription"
+    name = "Transcription"
+    url = "/transcription/"
+    weight = 40
